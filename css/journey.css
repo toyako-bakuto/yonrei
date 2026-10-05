@@ -38,7 +38,7 @@
     display: block;
     margin-bottom: 12px;
     color: #666;
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 0.2em;
 }
 
@@ -53,5 +53,5 @@
 .timeline-content p {
     max-width: 500px;
     color: #888;
-    font-size: 13px;
+    font-size: 16px;
 }

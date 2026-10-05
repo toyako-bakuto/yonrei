@@ -6,7 +6,7 @@
 .eyebrow {
     margin-bottom: 20px;
     color: #777;
-    font-size: 9px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.18em;
 }
@@ -38,5 +38,5 @@
 .section-description {
     max-width: 300px;
     color: #777;
-    font-size: 12px;
+    font-size: 14px;
 }

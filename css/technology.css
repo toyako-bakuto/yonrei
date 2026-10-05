@@ -14,7 +14,7 @@
 
 .technology > span {
     color: #555;
-    font-size: 9px;
+    font-size: 32px;
 }
 
 .technology h3 {
@@ -26,5 +26,5 @@
 
 .technology p {
     color: #666;
-    font-size: 10px;
+    font-size: 14px;
 }
