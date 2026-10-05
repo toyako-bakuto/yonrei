@@ -1,0 +1,42 @@
+.container {
+    width: min(calc(100% - 60px), var(--max-width));
+    margin-inline: auto;
+}
+
+.eyebrow {
+    margin-bottom: 20px;
+    color: #777;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+}
+
+.section {
+    padding: 140px 0;
+}
+
+.dark {
+    background: var(--black);
+    color: var(--white);
+}
+
+.section-header {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.section-header h2 {
+    font-size: clamp(45px, 7vw, 85px);
+    font-weight: 400;
+    line-height: .9;
+    letter-spacing: -.06em;
+}
+
+.section-description {
+    max-width: 300px;
+    color: #777;
+    font-size: 12px;
+}

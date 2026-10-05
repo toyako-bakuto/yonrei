@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal programming archive Jonathan Anandar Cahyadi.">
+    <title>Jonathan Anandar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <a href="#home" class="logo">JONATHAN</a>
+            <nav class="nav" id="nav">
+                <a href="#journey">Journey</a>
+                <a href="#projects">Projects</a>
+                <a href="#technology">Technology</a>
+                <a href="#about">About</a>
+            </nav>
+            <button class="menu-button" id="menuButton" type="button" aria-label="Buka Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-top">
+                    <span>PERSONAL PROGRAMMING ARCHIVE</span>
+                    <span>2026</span>
+                </div>
+
+                <div class="hero-content">
+                    <p class="hero-small">A record of things I have learned, built, broken, and rebuilt.</p>
+                    <h1>Learning <span>by building</span></h1>
+
+                </div>
+
+                <div class="hero-bottom">
+                    <p>I created this website not to look for clients, but to document my journey of learning programming.</p>
+                    <a href="#projects" class="hero-link">
+                        <span>Lihat project</span>
+                        <span>↓</span>
+                    </a>
+                </div>
+            </div>            
+        </section>
+
+        <section class="intro">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">01 / WHY THIS EXISTS</p>
+                        <h2>It’s Not About the <em>Final Result.</em></h2>
+                        <div class="intro-text">
+                            <p>This website is a place where I keep the things I’ve created throughout my journey of learning programming.</p>
+                            <p>Some projects may be simple. Some may not be very good. But every one of them is part of my learning process.</p>
+                            <p>I want to be able to look back at them years from now and see how much I’ve grown.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark" id="journey">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">02 / JOURNEY</p>
+                        <h2>Journey</h2>
+                    </div>
+                    <p class="section-description">
+                        A few milestones that mark my learning journey.
+                    </p>
+                </div>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-line">
+                            <span></span>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-label">BEGINNING</span>
+                            <h3>Started learning HTML.</h3>
+                            <p>Learning how web pages are built using HTML, elements, tags, and attributes.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">03 / PROJECTS</p>
+                        <h2>Things I built.</h2>
+                    </div>
+                    <p class="section-description">All the websites, exercises, and projects I’ve created.</p>
+                </div>
+                <div class="project-carousel">
+                    <button class="carousel-button carousel-prev" id="prevProject" type="button" aria-label="Project sebelumnya">←</button>
+                    <div class="project-window">
+                        <div class="project-track" id="projectGrid"></div>
+                    </div>
+                    <button class="carousel-button carousel-next" id="nextProject" type="button" aria-label="Project berikutnya">→</button>
+                </div>
+                <div class="carousel-info">
+                    <span id="projectCounter">01-04</span>
+                    <span>SWIPE TO EXPLORE PROJECTS</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark" id="technology">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">04 / TECHNOLOGY</p>
+                        <h2>What I use.</h2>
+                    </div>
+                    <p class="section-description">Languages and technologies I’ve used or am currently learning.</p>
+                </div>
+                <div class="technology-grid">
+                    <article class="technology">
+                        <span>01</span>
+                        <h3>HTML</h3>
+                        <p>Structure &amp; Semantic</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">05 / ABOUT</p>
+                    <h2>Still Learning</h2>
+                </div>
+
+                <div class="about-content">
+                    <p class="about-lead">I don’t consider this journey finished yet.</p>
+                    <p>I’m still learning how to build better websites, write better code, and understand how technology works.</p>
+                    <p>The projects on this website are not just final results. They are documentation of the process.</p>
+                    <p>Someday, I want to look back at this page and realize just how far I’ve come.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="end">
+            <div class="container">
+                <p class="eyebrow">THE JOURNEY CONTINUES</p>
+                <h2>More to build.</h2>
+                <div class="end-line"></div>
+                <p class="end-name">Jonathan Anandar Cahyadi</p>
+                <p class="end-year">2026</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>JONATHAN</span>
+            <span>PERSONAL PROGRAMMING ARCHIVE</span>
+        </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="js/project.js"></script>
+    <script src="js/navigation.js"></script>
+</body>
+</html>

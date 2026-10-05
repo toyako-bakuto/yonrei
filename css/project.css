@@ -1,0 +1,157 @@
+.projects {
+    background: var(--white);
+}
+
+.project-carousel {
+    display: grid;
+    grid-template-columns: 45px minmax(0, 1fr) 45px;
+    align-items: center;
+    gap: 15px;
+}
+
+.project-window {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-track {
+    display: flex;
+    gap: 1px;
+    background: var(--border-light);
+    transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.project-card {
+    flex: 0 0 calc((100% - 3px) / 4);
+    min-width: 0;
+    padding: 22px;
+    background: var(--white);
+    transition: background 0.2s ease;
+}
+
+.project-card:hover {
+    background: #e8e8e5;
+}
+
+
+.project-visual {
+    aspect-ratio: 4 / 3;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+    color: #888;
+    font-size: 8px;
+    letter-spacing: 0.15em;
+    overflow: hidden;
+}
+
+.project-visual span {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-visual span {
+    transform: scale(1.1);
+}
+
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 8px;
+    letter-spacing: 0.08em;
+}
+
+.project-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 12px;
+}
+
+.project-tag {
+    padding: 4px 6px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: #777;
+    font-size: 7px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.project-description {
+    margin-top: 15px;
+    color: #777;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-links a {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #aaa;
+    color: #555;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.project-links a:hover {
+    color: #111;
+    border-color: #111;
+}
+
+.carousel-button {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background: transparent;
+    color: #111;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.2s ease, color .2s ease, opacity 0.2s ease;
+}
+
+.carousel-button:hover {
+    background: #111;
+    color: white;
+}
+
+.carousel-button:disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+}
+
+.carousel-button:disabled:hover {
+    background: transparent;
+    color: #111;
+}
+
+.carousel-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 8px;
+    letter-spacing: 0.12em;
+}
+
+#projectCounter {
+    color: #111;
+}

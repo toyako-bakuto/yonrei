@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #050505;
+    color: #111;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font: inherit;
+}
+
+:root {
+    --black: #050505;
+    --black-soft: #0c0c0c;
+    --white: #f3f3f0;
+    --white-soft: #e8e8e5;
+    --gray: #777;
+    --gray-light: #aaa;
+    --border-dark: rgba(255, 255, 255, 0.13);
+    --border-light: rgba(0, 0, 0, 0.13);
+    --max-width: 1200px;
+}

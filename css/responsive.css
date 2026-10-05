@@ -1,0 +1,152 @@
+@media (max-width: 1000px) {
+    .project-card {
+        flex-basis: calc((100% - 2px) / 3);
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: min(calc(100% - 40px), var(--max-width));
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        padding: 25px 20px;
+        flex-direction: column;
+        gap: 20px;
+        background: #050505;
+        border-bottom: 1px solid #222;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .hero {
+        min-height: auto;
+        padding-top: 120px;
+    }
+
+    .hero-content {
+        padding: 90px 0;
+    }
+
+    .hero-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .intro-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header {
+        display: block;
+    }
+
+    .section-description {
+        margin-top: 25px;
+    }
+
+    .timeline-item {
+        grid-template-columns: 60px 25px minmax(0, 1fr);
+    }
+
+    .timeline-content {
+        padding-left: 25px;
+    }
+
+    .timeline-content h3 {
+        font-size: 27px;
+    }
+
+    .project-carousel {
+        grid-template-columns: 35px minmax(0, 1fr) 35px;
+        gap: 10px;
+    }
+
+    .carousel-button {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .technology-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 750px) {
+    .project-card {
+        flex-basis: calc((100% - 1px) / 2);
+        padding: 15px;
+    }
+
+    .project-title {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section {
+        padding: 90px 0;
+    }
+
+    .hero h1 {
+        font-size: 67px;
+    }
+
+    .hero-content {
+        padding: 70px 0;
+    }
+
+    .timeline-item {
+        grid-template-columns: 45px, 20px, minmax(0, 1fr);
+    }
+
+    .timeline-content {
+        padding-left: 20px;
+    }
+
+    .timeline-content h3 {
+        font-size: 23px;
+    }
+
+    .technology-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .technology h3 {
+        margin-top: 45px;
+    }
+
+    .carousel-info {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .project-card {
+        flex-basis: 100%;
+    }
+}
