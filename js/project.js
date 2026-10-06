@@ -1,6 +1,14 @@
 let projects = [];
 let currentPage = 1;
-const projectsPerPage = 8;
+
+function getProjectsPerPage() {
+    if (window.innerWidth <= 750) {
+        return 1;
+    }
+
+    return 8;
+}
+// const projectsPerPage = 8;
 
 const projectGrid = document.getElementById("projectGrid");
 const prevProject = document.getElementById("prevProject");
@@ -65,6 +73,7 @@ function renderProjects() {
 
     projectGrid.innerHTML = "";
 
+    const projectsPerPage = getProjectsPerPage();
     const start = (currentPage - 1) * projectsPerPage;
     const end = start + projectsPerPage;
 
@@ -78,6 +87,7 @@ function renderProjects() {
 }
 
 function updatePagination() {
+    const projectsPerPage = getProjectsPerPage();
     const totalPages = Math.ceil(projects.length / projectsPerPage);
 
     if (prevProject) {
@@ -96,9 +106,9 @@ function updatePagination() {
     }
 }
 
-
 if (nextProject) {
     nextProject.addEventListener("click", function() {
+        const projectsPerPage = getProjectsPerPage();
         const totalPages = Math.ceil(projects.length / projectsPerPage);
 
         if (currentPage < totalPages) {
@@ -121,6 +131,15 @@ if (prevProject) {
     });
 }
 
+window.addEventListener("resize", function () {
+
+    currentPage = 1;
+
+    renderProjects();
+
+    updatePagination();
+
+});
 
 // Initialize
 loadProjects();
