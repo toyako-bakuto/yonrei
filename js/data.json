@@ -180,5 +180,187 @@
         ],
         "demo": "#",
         "github": "#"
+    },
+    {
+        "number": "01",
+        "title": "Website Pertama",
+        "year": "2025",
+        "description": "Salah satu website pertama yang saya buat ketika mulai belajar HTML.",
+        "tags": [
+            "HTML"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "02",
+        "title": "Profil Sederhana",
+        "year": "2025",
+        "description": "Latihan membuat halaman profil menggunakan struktur HTML dasar.",
+        "tags": [
+            "HTML"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "03",
+        "title": "Website Artikel",
+        "year": "2025",
+        "description": "Latihan membuat halaman artikel dan memahami struktur konten.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "04",
+        "title": "Landing Page",
+        "year": "2025",
+        "description": "Project untuk memahami layout, typography, spacing, dan visual.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "05",
+        "title": "Responsive Website",
+        "year": "2025",
+        "description": "Latihan membuat website yang dapat menyesuaikan ukuran layar.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "06",
+        "title": "Website Fashion",
+        "year": "2026",
+        "description": "Website dengan konsep katalog fashion dan tampilan editorial.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "07",
+        "title": "JavaScript Practice",
+        "year": "2026",
+        "description": "Project latihan untuk memahami JavaScript dan DOM.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "08",
+        "title": "Interactive Website",
+        "year": "2026",
+        "description": "Website yang menggunakan JavaScript untuk membuat interaksi.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "09",
+        "title": "ANDARA",
+        "year": "2026",
+        "description": "Website katalog fashion dengan konsep editorial dan lookbook.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "10",
+        "title": "Project 10",
+        "year": "2026",
+        "description": "Project berikutnya dalam perjalanan belajar programming.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "11",
+        "title": "Project 11",
+        "year": "2026",
+        "description": "Project latihan untuk mencoba konsep baru.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "12",
+        "title": "Project 12",
+        "year": "2026",
+        "description": "Bagian lain dari perjalanan saya dalam membuat website.",
+        "tags": [
+            "JavaScript"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "13",
+        "title": "Project 13",
+        "year": "2026",
+        "description": "Project tambahan dari proses latihan programming.",
+        "tags": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "14",
+        "title": "Project 14",
+        "year": "2026",
+        "description": "Eksperimen lain untuk memahami konsep web development.",
+        "tags": [
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "#",
+        "github": "#"
+    },
+    {
+        "number": "15",
+        "title": "Project 15",
+        "year": "2026",
+        "description": "Salah satu bagian dari perjalanan belajar saya.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "#",
+        "github": "#"
     }
 ]

@@ -2,6 +2,10 @@
     .project-card {
         flex-basis: calc((100% - 2px) / 3);
     }
+
+    .project-track {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (max-width: 850px) {
@@ -98,6 +102,10 @@
     .project-title {
         font-size: 17px;
     }
+
+    .project-track {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 600px) {
@@ -148,5 +156,9 @@
 @media (max-width: 500px) {
     .project-card {
         flex-basis: 100%;
+    }
+
+    .project-track {
+        grid-template-columns: 1fr;
     }
 }

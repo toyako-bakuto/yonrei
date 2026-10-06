@@ -15,18 +15,16 @@
 }
 
 .project-track {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1px;
     background: var(--border-light);
-    transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 .project-card {
-    flex: 0 0 calc((100% - 3px) / 4);
     min-width: 0;
     padding: 22px;
     background: var(--white);
-    transition: background 0.2s ease;
 }
 
 .project-card:hover {
